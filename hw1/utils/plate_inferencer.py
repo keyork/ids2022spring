@@ -23,12 +23,3 @@ class PlateNumberFinder:
                     self.result = inference_num
                     break
 
-
-# debug
-
-if __name__ == '__main__':
-
-    plate_finder = PlateNumberFinder()
-    plate_finder.inference()
-    print(plate_finder.result)
-    

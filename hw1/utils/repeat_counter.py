@@ -19,14 +19,3 @@ class RepeatCounter:
     def count(self):
 
         self.result = pd.value_counts(self.input_list)
-
-
-# debug
-
-if __name__ == '__main__':
-    input_str = 'Hello python hello java'
-    repeat_counter = RepeatCounter()
-    repeat_counter.split(input_str)
-    repeat_counter.count()
-
-    print(repeat_counter.result)
